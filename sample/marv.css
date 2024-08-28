@@ -1,0 +1,22 @@
+.btn{
+    text-decoration: solid;
+    border: 5px solid;
+    padding: 5px;
+    border-radius: 10px;
+    transition: all 200ms ease-in;
+    color: red;
+}
+.btn:hover{
+    background-color: rgb(216, 71, 95);
+    color: aliceblue;
+    padding: 7px;
+}
+
+@font-face {
+    font-family: Matemasie;
+    src: url('Matemasie-Regular.ttf');
+}
+
+body{
+    font-family: Matemasie;
+}   
