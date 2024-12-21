@@ -26,7 +26,7 @@ const getWorkout = async (req, res) => {
 }
 
 
-//create new product
+//create new workout
 const createWorkout = async (req, res) => {
     const {title, load, reps} = req.body
 

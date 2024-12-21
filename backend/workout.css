@@ -1,0 +1,161 @@
+body{
+    background-color: #433878;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+
+}
+
+.container{
+    width: 100%;
+    margin: 5%;
+    gap: 20px;
+}
+
+
+.add-search{
+    justify-content: space-between;
+}
+
+
+
+.header-title{
+    text-align: center;
+    font-weight: bold;
+}
+
+.search{
+    background-color: #A594F9;
+    border-radius: 6px;
+    padding: 20px;
+    min-width: 100px; 
+    max-width: 600px; 
+    width: 100%;
+    flex-grow: 1;
+    min-height: 300%;   
+    height: auto;
+}
+
+.list-searchpart {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+}
+
+
+.unlist{
+    list-style: none;
+    margin-top: 30px;
+    padding: 0;
+}
+
+.unlist li {
+    display: flex;
+    align-items: center; /* Centers items vertically */
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.workout-info {
+    display: flex;
+    flex-direction: column; /* Stack text elements vertically */
+    margin-bottom: 5px;
+}
+
+.workout-title {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 0; /* Remove space after workout title */
+}
+
+.reps,
+.loads {
+    font-size: 1em;
+    margin: 0; /* Remove margin between reps and loads */
+    padding: 0; /* Ensure there's no padding between these two */
+}
+
+
+.delete{
+    background-color: #7E60BF;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    width: 15%;
+    font-size: 1.1em;
+    margin: 20px;
+    margin-left: auto;
+    align-self: flex-end; /* Align the delete button to the right */
+}
+
+.delete:hover{
+    background-color: #E4B1F0;
+}
+
+hr {
+    margin: 10px 0; /* Add margin for spacing */
+    border: 1px solid #ccc; /* Optional: style hr */
+    margin-left: 14px;
+}
+
+
+
+
+.search-workout,
+#workouts,
+#reps, 
+#loads {
+    width: 100%;
+    padding: 3px;
+    margin-bottom: 20px;
+    border: 2px solid #7E60BF;
+    border-radius: 3px;
+    background-color: #FFE1FF;
+}
+
+
+
+
+
+
+/* add part */
+
+.add{
+    background-color: #A594F9;
+    padding: 20px;
+    border-radius: 6px;
+    min-width: 450px; 
+    max-width: 300px; 
+    height: 400px;
+    width: 50%;
+    min-height: 300px;
+    flex-shrink: 0;
+}
+
+.add-header{
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.Button-add {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20%;
+}
+
+#add-button{
+    background-color: #7E60BF;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    height: 55%;
+    width: 20%;
+    font-size: 1.2em;
+}
+
+#add-button:hover{
+    background-color: #E4B1F0;
+}
